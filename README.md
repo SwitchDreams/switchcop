@@ -1,28 +1,25 @@
 # Switchcop
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/switchcop`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+Ruby is the main language used in SwitchDreams, and to help enforce our style guide in our projects we created Switchcop as our main Rubocop configuration gem and to serve as the Style Guide itself. We intend to update this gem as our style guide gets better over time.
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'switchcop'
+gem "switchcop", require: false
 ```
-
-And then execute:
-
-    $ bundle install
-
-Or install it yourself as:
-
-    $ gem install switchcop
 
 ## Usage
 
-TODO: Write usage instructions here
+Add switchcop's Rubocop configuration file to your .rubocop.yml:
+
+```ruby
+inherit_gem:
+  rubocop-shopify: rubocop.yml
+```
+
+For more information about inheriting configuration from a gem please check RuboCop's documentation.
 
 ## Development
 
