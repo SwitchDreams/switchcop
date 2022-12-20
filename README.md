@@ -16,7 +16,7 @@ Add switchcop's Rubocop configuration file to your .rubocop.yml:
 
 ```ruby
 inherit_gem:
-  rubocop-shopify: rubocop.yml
+  switchcop: rubocop.yml
 ```
 
 For more information about inheriting configuration from a gem please check RuboCop's documentation.
