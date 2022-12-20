@@ -2,11 +2,11 @@ PATH
   remote: .
   specs:
     switchcop (0.1.0)
-      rubocop
-      rubocop-performance
-      rubocop-rails
-      rubocop-rspec
-      rubocop-shopify
+      rubocop (~> 1.40.0)
+      rubocop-performance (~> 1.15.1)
+      rubocop-rails (~> 2.17.3)
+      rubocop-rspec (~> 2.16.0)
+      rubocop-shopify (~> 2.10.1)
 
 GEM
   remote: https://rubygems.org/
@@ -63,11 +63,11 @@ PLATFORMS
 
 DEPENDENCIES
   rake (~> 13.0)
-  rubocop
-  rubocop-performance
-  rubocop-rails
-  rubocop-rspec
-  rubocop-shopify
+  rubocop (~> 1.40.0)
+  rubocop-performance (~> 1.15.1)
+  rubocop-rails (~> 2.17.3)
+  rubocop-rspec (~> 2.16.0)
+  rubocop-shopify (~> 2.10.1)
   switchcop!
 
 BUNDLED WITH

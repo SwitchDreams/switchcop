@@ -21,12 +21,12 @@ Gem::Specification.new do |spec|
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
-  spec.files = [".rubocop.yml", "LICENSE.md"]
+  spec.files = [".rubocop.yml", "LICENSE.txt"]
   spec.require_paths = ["lib"]
 
-  spec.add_dependency("rubocop")
-  spec.add_dependency("rubocop-performance")
-  spec.add_dependency("rubocop-rails")
-  spec.add_dependency("rubocop-rspec")
-  spec.add_dependency("rubocop-shopify")
+  spec.add_dependency("rubocop", "~> 1.40.0")
+  spec.add_dependency("rubocop-performance", "~> 1.15.1")
+  spec.add_dependency("rubocop-rails", "~> 2.17.3")
+  spec.add_dependency("rubocop-rspec", "~> 2.16.0")
+  spec.add_dependency("rubocop-shopify", "~> 2.10.1")
 end
