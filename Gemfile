@@ -7,6 +7,8 @@ gemspec
 
 gem "rake", "~> 13.0"
 
-gem "rubocop", "~> 1.21"
-
-gem "rubocop-shopify", require: false
+gem "rubocop"
+gem "rubocop-performance"
+gem "rubocop-rails"
+gem "rubocop-rspec"
+gem "rubocop-shopify"
