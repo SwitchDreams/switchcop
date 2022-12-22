@@ -6,5 +6,8 @@ require:
 inherit_gem:
   rubocop-shopify: rubocop.yml
 
+Style/MethodCallWithArgsParentheses:
+  Enabled: false
+
 AllCops:
   NewCops: enable
