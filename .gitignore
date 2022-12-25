@@ -1,1 +1,7 @@
 gemfiles/*.gemfile.lock
+
+# IDEA files
+.idea
+
+# Hide builds
+*.gem
