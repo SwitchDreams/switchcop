@@ -6,10 +6,31 @@ require:
 inherit_gem:
   rubocop-shopify: rubocop.yml
 
+# Style
+
 Style/MethodCallWithArgsParentheses:
   Enabled: false
 
 Style/ClassMethodsDefinitions:
+  Enabled: false
+
+Style/ClassAndModuleChildren:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+# Metrics
+
+Metrics/AbcSize:
+  AllowedMethods: [ "change" ] ## migrations change methods are bigger
+
+Metrics/BlockLength:
+  Exclude: [ "config/routes.rb" ]
+
+# Rspec
+
+RSpec/Rails/InferredSpecType:
   Enabled: false
 
 AllCops:
