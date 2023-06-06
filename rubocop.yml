@@ -20,6 +20,14 @@ Style/ClassAndModuleChildren:
 Style/Documentation:
   Enabled: false
 
+# Layout
+
+Layout/ArgumentAlignment:
+  EnforcedStyle: with_fixed_indentation
+
+Layout/MultilineHashKeyLineBreaks:
+  Enabled: false
+
 # Metrics
 
 Metrics/AbcSize:
