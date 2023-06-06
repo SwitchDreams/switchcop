@@ -24,9 +24,9 @@ Gem::Specification.new do |spec|
   spec.files = ["rubocop.yml", "LICENSE.txt"]
   spec.require_paths = ["lib"]
 
-  spec.add_dependency("rubocop", "~> 1.48")
-  spec.add_dependency("rubocop-performance", "~> 1.16")
-  spec.add_dependency("rubocop-rails", "~> 2.18")
-  spec.add_dependency("rubocop-rspec", "~> 2.19")
-  spec.add_dependency("rubocop-shopify", "~> 2.12")
+  spec.add_dependency("rubocop", "1.48")
+  spec.add_dependency("rubocop-performance", "1.16")
+  spec.add_dependency("rubocop-rails", "2.18")
+  spec.add_dependency("rubocop-rspec", "2.19")
+  spec.add_dependency("rubocop-shopify", "2.12")
 end
