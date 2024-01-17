@@ -14,7 +14,7 @@ gem "switchcop", require: false
 
 Add switchcop's Rubocop configuration file to your .rubocop.yml:
 
-```ruby
+```yml
 inherit_gem:
   switchcop: rubocop.yml
 ```

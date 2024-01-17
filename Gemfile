@@ -6,8 +6,8 @@ source "https://rubygems.org"
 gemspec
 
 gem "rake", "13.0"
-gem "rubocop", "1.48"
-gem "rubocop-performance", "1.16"
-gem "rubocop-rails", "2.18"
-gem "rubocop-rspec", "2.19"
-gem "rubocop-shopify", "2.12"
+gem "rubocop", "1.60.1"
+gem "rubocop-performance", "1.20.2"
+gem "rubocop-rails", "2.23.1"
+gem "rubocop-rspec", "2.26.1"
+gem "rubocop-shopify", "2.14"

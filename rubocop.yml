@@ -2,6 +2,7 @@ require:
   - rubocop-rails
   - rubocop-performance
   - rubocop-rspec
+  - rubocop-factory_bot
 
 inherit_gem:
   rubocop-shopify: rubocop.yml
@@ -41,5 +42,25 @@ Metrics/BlockLength:
 RSpec/Rails/InferredSpecType:
   Enabled: false
 
+RSpec/Rails/NegationBeValid:
+  Enabled: false
+
+RSpec/IndexedLet:
+  Enabled: false
+
+# Rails
+
+Rails/ThreeStateBooleanColumn:
+  Enabled: false
+
+# FactoryBot
+
+FactoryBot/AssociationStyle:
+  Enabled: false
+
+FactoryBot/RedundantFactoryOption:
+  Enabled: false
+
 AllCops:
+  SuggestExtensions: false
   NewCops: enable
