@@ -53,6 +53,9 @@ RSpec/IndexedLet:
 Rails/ThreeStateBooleanColumn:
   Enabled: false
 
+Rails/FindEach:
+  Enabled: false
+
 # FactoryBot
 
 FactoryBot/AssociationStyle:
