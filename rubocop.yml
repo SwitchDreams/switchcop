@@ -39,10 +39,10 @@ Metrics/BlockLength:
 
 # Rspec
 
-RSpec/Rails/InferredSpecType:
+RSpecRails/InferredSpecType:
   Enabled: false
 
-RSpec/Rails/NegationBeValid:
+RSpecRails/NegationBeValid:
   Enabled: false
 
 RSpec/IndexedLet:
