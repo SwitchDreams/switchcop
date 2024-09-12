@@ -49,7 +49,16 @@ RSpecRails/NegationBeValid:
 RSpec/IndexedLet:
   Enabled: false
 
+RSpec/MultipleExpectations:
+  Max: 3
+
+RSpec/ExampleLength:
+  Max: 25
+
 # Rails
+
+Rails/I18nLocaleTexts:
+  Enabled: false
 
 Rails/ThreeStateBooleanColumn:
   Enabled: false
