@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.description = "Gem containing the rubocop.yml config for Switch Dreams` style guide for Ruby."
 
   spec.author = "Switch Dreams"
-  spec.email = ["felipevaz444@gmail.com"]
+  spec.email = ["dreamsswitch@gmail.com"]
   spec.homepage = "https://github.com/SwitchDreams/switchcop"
 
   spec.license = "MIT"
@@ -24,9 +24,11 @@ Gem::Specification.new do |spec|
   spec.files = ["rubocop.yml", "LICENSE.txt"]
   spec.require_paths = ["lib"]
 
-  spec.add_dependency("rubocop", "1.64.1")
-  spec.add_dependency("rubocop-performance", "1.21.0")
-  spec.add_dependency("rubocop-rails", "2.25.0")
-  spec.add_dependency("rubocop-rspec", "2.29.2")
+  spec.add_dependency("rubocop", "1.66.1")
+  spec.add_dependency("rubocop-factory_bot", "2.26.1")
+  spec.add_dependency("rubocop-performance", "1.21.1")
+  spec.add_dependency("rubocop-rails", "2.26.1")
+  spec.add_dependency("rubocop-rspec", "3.0.5")
+  spec.add_dependency("rubocop-rspec_rails", "2.30.0")
   spec.add_dependency("rubocop-shopify", "2.15.1")
 end
