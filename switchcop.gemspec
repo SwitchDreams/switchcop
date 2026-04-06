@@ -24,11 +24,11 @@ Gem::Specification.new do |spec|
   spec.files = ["rubocop.yml", "LICENSE.txt"]
   spec.require_paths = ["lib"]
 
-  spec.add_dependency("rubocop", "~> 1.75")
-  spec.add_dependency("rubocop-factory_bot", "~> 2.27")
-  spec.add_dependency("rubocop-performance", "~> 1.25")
-  spec.add_dependency("rubocop-rails", "~> 2.31")
-  spec.add_dependency("rubocop-rspec", "~> 3.5")
-  spec.add_dependency("rubocop-rspec_rails", "~> 2.31")
-  spec.add_dependency("rubocop-shopify", "~> 2.17")
+  spec.add_dependency("rubocop", "~> 1.86")
+  spec.add_dependency("rubocop-factory_bot", "~> 2.28")
+  spec.add_dependency("rubocop-performance", "~> 1.26")
+  spec.add_dependency("rubocop-rails", "~> 2.34")
+  spec.add_dependency("rubocop-rspec", "~> 3.9")
+  spec.add_dependency("rubocop-rspec_rails", "~> 2.32")
+  spec.add_dependency("rubocop-shopify", "~> 2.18")
 end
