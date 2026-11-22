@@ -66,6 +66,9 @@ Rails/ThreeStateBooleanColumn:
 Rails/FindEach:
   Enabled: false
 
+Rails/StrongParametersExpect:
+  Enabled: false
+
 # FactoryBot
 
 FactoryBot/AssociationStyle:
