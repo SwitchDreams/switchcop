@@ -9,7 +9,7 @@ PATH
       rubocop-rails (~> 2.38)
       rubocop-rspec (~> 3.10)
       rubocop-rspec_rails (~> 2.33)
-      rubocop-shopify (~> 2.18)
+      rubocop-shopify (~> 3.1)
 
 GEM
   remote: https://rubygems.org/
@@ -90,8 +90,9 @@ GEM
       lint_roller (~> 1.1)
       rubocop (~> 1.89)
       rubocop-rspec (~> 3.5)
-    rubocop-shopify (2.18.0)
-      rubocop (~> 1.62)
+    rubocop-shopify (3.1.0)
+      lint_roller
+      rubocop (~> 1.89)
     ruby-progressbar (1.13.0)
     securerandom (0.4.1)
     tzinfo (2.0.6)

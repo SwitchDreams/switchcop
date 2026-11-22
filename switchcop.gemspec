@@ -13,7 +13,7 @@ Gem::Specification.new do |spec|
   spec.homepage = "https://github.com/SwitchDreams/switchcop"
 
   spec.license = "MIT"
-  spec.required_ruby_version = ">= 2.6.0"
+  spec.required_ruby_version = ">= 3.3.0"
 
   spec.metadata["homepage_uri"] = spec.homepage
   spec.metadata["allowed_push_host"] = "https://rubygems.org/"
@@ -32,5 +32,5 @@ Gem::Specification.new do |spec|
   spec.add_dependency("rubocop-rails", "~> 2.38")
   spec.add_dependency("rubocop-rspec", "~> 3.10")
   spec.add_dependency("rubocop-rspec_rails", "~> 2.33")
-  spec.add_dependency("rubocop-shopify", "~> 2.18")
+  spec.add_dependency("rubocop-shopify", "~> 3.1")
 end
