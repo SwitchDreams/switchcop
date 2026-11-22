@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    switchcop (0.3.0)
+    switchcop (1.0.0)
       lint_roller (~> 1.1)
       rubocop (~> 1.92)
       rubocop-factory_bot (~> 2.28)
