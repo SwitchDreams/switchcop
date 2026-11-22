@@ -27,6 +27,9 @@ Style/Documentation:
 Layout/ArgumentAlignment:
   EnforcedStyle: with_fixed_indentation
 
+Layout/IndentationWidth:
+  EnforcedStyleAlignWith: relative_to_receiver
+
 Layout/MultilineHashKeyLineBreaks:
   Enabled: false
 
@@ -44,6 +47,9 @@ RSpecRails/InferredSpecType:
   Enabled: false
 
 RSpecRails/NegationBeValid:
+  Enabled: false
+
+RSpecRails/MinitestAssertions:
   Enabled: false
 
 RSpec/IndexedLet:
