@@ -18,12 +18,14 @@ Gem::Specification.new do |spec|
   spec.metadata["homepage_uri"] = spec.homepage
   spec.metadata["allowed_push_host"] = "https://rubygems.org/"
   spec.metadata["source_code_uri"] = "https://github.com/SwitchDreams/switchcop"
+  spec.metadata["default_lint_roller_plugin"] = "Switchcop::Plugin"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
-  spec.files = ["rubocop.yml", "LICENSE.txt"]
+  spec.files = ["rubocop.yml", "LICENSE.txt", "lib/switchcop.rb", "lib/switchcop/version.rb", "lib/switchcop/plugin.rb"]
   spec.require_paths = ["lib"]
 
+  spec.add_dependency("lint_roller", "~> 1.1")
   spec.add_dependency("rubocop", "~> 1.86")
   spec.add_dependency("rubocop-factory_bot", "~> 2.28")
   spec.add_dependency("rubocop-performance", "~> 1.26")

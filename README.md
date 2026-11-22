@@ -12,14 +12,21 @@ gem "switchcop", require: false
 
 ## Usage
 
-Add switchcop's Rubocop configuration file to your .rubocop.yml:
+Load switchcop as a RuboCop plugin (requires RuboCop >= 1.72) in your .rubocop.yml:
+
+```yml
+plugins:
+  - switchcop
+```
+
+Alternatively, inherit the configuration file directly:
 
 ```yml
 inherit_gem:
   switchcop: rubocop.yml
 ```
 
-For more information about inheriting configuration from a gem please check RuboCop's documentation.
+Both approaches resolve to the same configuration. For more information please check RuboCop's documentation on [plugins](https://docs.rubocop.org/rubocop/latest/plugins.html) and [inheriting configuration from a gem](https://docs.rubocop.org/rubocop/latest/configuration.html#inheriting-configuration-from-a-dependency-gem).
 
 ## Development
 
