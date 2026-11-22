@@ -30,7 +30,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency("rubocop-factory_bot", "~> 2.28")
   spec.add_dependency("rubocop-performance", "~> 1.27")
   spec.add_dependency("rubocop-rails", "~> 2.38")
-  spec.add_dependency("rubocop-rspec", "~> 3.9")
+  spec.add_dependency("rubocop-rspec", "~> 3.10")
   spec.add_dependency("rubocop-rspec_rails", "~> 2.32")
   spec.add_dependency("rubocop-shopify", "~> 2.18")
 end
